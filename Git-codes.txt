@@ -1,0 +1,17 @@
+CREATE AND COMMIT FOR THE FIRST TIME
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edisondanielmv/MiUniversidad.git
+git remote -v
+git remote set-url origin https://github.com/edisondanielmv/Universidad.git
+git fetch
+git push -u origin main
+
+
+UPDATE GITHUB REPOSITORY
+git init
+git add . 
+git fetch
+git push -u origin main
